@@ -1,0 +1,48 @@
+#contacts{
+  height:80%;
+  .contacts__main_info{
+    min-height:70%;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height:400px;
+    padding: 15px;
+    &__contacts_info {
+      padding: 15px;
+      height:max-content;
+      width:max-content;
+      text-align: center;
+      &__phone{
+        font-size: 1.4rem;
+        color: black;
+      }
+      &__logo_container {
+        display: flex;
+        justify-content: space-evenly;
+      }
+      a{
+        width:20%;
+        cursor: pointer;
+        img {
+          width: 100%;
+        }
+      }
+    }
+    &__map{
+      height:100%;
+      text-align: center;
+      padding: 15px;
+      flex-grow: 1;
+    }
+    &__yandex_map{
+      width:90%;
+      min-height:300px;
+    }
+  }
+  .contacts__recall_container{
+    height:30%;
+  }
+}
+
