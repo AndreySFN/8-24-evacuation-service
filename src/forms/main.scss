@@ -1,0 +1,22 @@
+#main_page {
+  height:80%;
+  .main_page__recall_container{
+    height:20%;
+  }
+  #main_content{
+    text-align: center;
+    background-color: antiquewhite;
+    min-height:80%;
+    &__products {
+      height: max-content;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      padding: 1%;
+    }
+  }
+  #all_price_button {
+    min-width:250px;
+    min-font-size: 30px;
+  }
+}

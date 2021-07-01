@@ -1,0 +1,214 @@
+jdiv {
+  display: none!important;
+}
+
+html, body, #root, .App {
+  height:100%;
+}
+
+html {
+  min-width: 280px;
+  font-family: "Aero Matics Stencil", serif;
+  font-size: 5vh;
+  background-image: url("./source/img/background.jpg");
+  background-size: cover;
+}
+
+body {
+  width:100%;
+
+  #content {
+    min-height:70%;
+  }
+}
+
+@font-face {
+  font-family: "Aero Matics Stencil";
+  src: url("./source/fonts/Aero Matics Stencil.ttf");
+}
+
+header {
+  height:20%;
+  min-height: 130px;
+  .header {
+    width: 100%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    background-image: url("./source/img/header-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-shadow: 0 0 6px black;
+    min-height: 100px;
+  }
+
+  .header .header__info {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .header .header__image {
+    height: 80%;
+    width: auto;
+  }
+
+  .header .header__title-organization {
+    padding: 0 5px 0 5px;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .header .header__phone-number {
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 5px 0 0;
+    text-decoration-line: none;
+  }
+
+  .nav {
+    width: 100%;
+    height: 15%;
+    background-image: url("./source/img/yellow-metall.jpg");
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    font-size: 0.7rem;
+    min-height: 20px;
+  }
+
+  .nav li {
+    display: flex;
+    width: 5em;
+    align-items: center;
+    transform: skew(20deg);
+    background-image: url("./source/img/black-metall.jpg");
+    justify-content: center;
+  }
+
+  .nav li a {
+    transform: skew(-20deg);
+    text-decoration: none;
+    color: white;
+  }
+
+  .nav li a:hover {
+    background: url("./source/img/yellow-metall.jpg");
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    cursor: pointer;
+  }
+
+  @media (max-height: 650px) {
+
+    @media (max-width: 670px) {
+      .header .header__image {
+        display: none;
+      }
+    }
+
+    @media (max-width: 490px) {
+      .header .header__info {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+
+      .header .header__title-organization {
+        display: flex;
+      }
+    }
+    @media (max-width: 390px) {
+      .header .header__title-organization {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+  @media (min-height: 650px) {
+
+    @media (max-aspect-ratio: 906/723) {
+      .header .header__image {
+        display: none;
+      }
+    }
+
+    @media (max-aspect-ratio: 630/650) {
+      .header .header__info {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+      }
+
+      .header .header__title-organization {
+        display: flex;
+      }
+    }
+
+    @media (max-aspect-ratio: 380/650) {
+      .header .header__title-organization {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+
+}
+
+footer {
+  min-height:5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("./source/img/footer-background.jpg");
+  color: white;
+  text-align:  center;
+  font-size: 0.5rem;
+}
+
+@media (max-height: 650px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+@media(max-aspect-ratio: 870/1100) {
+  html{
+    font-size: 6vw;
+  }
+
+}
+
+@media(max-aspect-ratio: 480/1100) {
+  html{
+    font-size: 8vw;
+  }
+}
+
+button {
+  background-color: #FF6B00;
+  color:white;
+}
+
+button, input {
+  border:0;
+  border-radius: 10px;
+  font-size: 1rem;
+  text-align: center;
+}
+a{
+  color:white;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+}
+
+@media (hover: none) {
+  body * {
+    -webkit-tap-highlight-color: transparent;
+  }
+}

@@ -1,0 +1,15 @@
+.product_card {
+  height: max-content;
+  padding:10px;
+  width:300px;
+  .product_card__img{
+    width:250px;
+    height: 220px;
+  }
+  .product_card__title, .product_card__price {
+    text-align: center;
+  }
+  .product_card__price {
+    color: #FF6B00;
+  }
+}
