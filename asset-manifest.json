@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/8-24-evacuation-service/static/css/main.245d8e75.chunk.css",
+    "main.js": "/8-24-evacuation-service/static/js/main.e273aa62.chunk.js",
+    "main.js.map": "/8-24-evacuation-service/static/js/main.e273aa62.chunk.js.map",
+    "runtime-main.js": "/8-24-evacuation-service/static/js/runtime-main.5ce1a50e.js",
+    "runtime-main.js.map": "/8-24-evacuation-service/static/js/runtime-main.5ce1a50e.js.map",
+    "static/js/2.5bc28232.chunk.js": "/8-24-evacuation-service/static/js/2.5bc28232.chunk.js",
+    "static/js/2.5bc28232.chunk.js.map": "/8-24-evacuation-service/static/js/2.5bc28232.chunk.js.map",
+    "index.html": "/8-24-evacuation-service/index.html",
+    "static/css/main.245d8e75.chunk.css.map": "/8-24-evacuation-service/static/css/main.245d8e75.chunk.css.map",
+    "static/js/2.5bc28232.chunk.js.LICENSE.txt": "/8-24-evacuation-service/static/js/2.5bc28232.chunk.js.LICENSE.txt",
+    "static/media/index.scss": "/8-24-evacuation-service/static/media/yellow-metall.0b54348c.jpg",
+    "static/media/NoImg.ef336ee1.png": "/8-24-evacuation-service/static/media/NoImg.ef336ee1.png",
+    "static/media/UnderConstruction.0afedb56.png": "/8-24-evacuation-service/static/media/UnderConstruction.0afedb56.png",
+    "static/media/header-image.2faa2092.svg": "/8-24-evacuation-service/static/media/header-image.2faa2092.svg",
+    "static/media/whatsapp_logo.b95633c7.png": "/8-24-evacuation-service/static/media/whatsapp_logo.b95633c7.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5ce1a50e.js",
+    "static/js/2.5bc28232.chunk.js",
+    "static/css/main.245d8e75.chunk.css",
+    "static/js/main.e273aa62.chunk.js"
+  ]
+}
