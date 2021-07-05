@@ -13,7 +13,7 @@ const Header = () => <header className="App-header">
         <div className="header__info">
             <div className="header__title-organization">
                 <div><Link to={'/'}>Служба эвакуации&nbsp;</Link></div>
-                <div><Link>"8.24"</Link></div>
+                <div><Link to={'/'}>"8.24"</Link></div>
             </div>
             <a className="header__phone-number" href={PHONE_URL}>{PHONE_NUMBER}</a>
         </div>
