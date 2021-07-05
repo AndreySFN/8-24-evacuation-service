@@ -4,6 +4,8 @@ import "./main.scss"
 import ProductCard from "../components/ProducCard";
 import noImg from '../source/img/NoImg.png'
 
+import {Link} from 'react-router-dom';
+
 const Main = () => <div id="main_page">
     <div className='main_page__recall_container'>
         <Recall/>
@@ -31,7 +33,7 @@ const Main = () => <div id="main_page">
                 price={'213125'}
             />
         </div>
-        <button id="all_price_button"><a href="/prices">СМОТРЕТЬ ВСЕ ЦЕНЫ</a></button>
+        <button id="all_price_button"><Link to="/prices">СМОТРЕТЬ ВСЕ ЦЕНЫ</Link></button>
     </div>
 </div>
 

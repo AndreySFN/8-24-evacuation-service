@@ -1,9 +1,9 @@
 jdiv {
-  display: none!important;
+  display: none !important;
 }
 
 html, body, #root, .App {
-  height:100%;
+  height: 100%;
 }
 
 html {
@@ -15,10 +15,10 @@ html {
 }
 
 body {
-  width:100%;
+  width: 100%;
 
   #content {
-    min-height:70%;
+    min-height: 70%;
   }
 }
 
@@ -28,8 +28,9 @@ body {
 }
 
 header {
-  height:20%;
+  height: 20%;
   min-height: 130px;
+
   .header {
     width: 100%;
     height: 85%;
@@ -40,32 +41,36 @@ header {
     background-size: cover;
     text-shadow: 0 0 6px black;
     min-height: 100px;
-  }
 
-  .header .header__info {
-    flex-grow: 1;
-    display: flex;
-    justify-content: space-between;
-  }
+    .header__info {
+      flex-grow: 1;
+      display: flex;
+      justify-content: space-between;
+    }
 
-  .header .header__image {
-    height: 80%;
-    width: auto;
-  }
+    .header__image {
+      height: 80%;
+      width: auto;
 
-  .header .header__title-organization {
-    padding: 0 5px 0 5px;
-    color: white;
-    font-size: 1.5rem;
-  }
+      img {
+        height: 100%;
+      }
+    }
 
-  .header .header__phone-number {
-    display: flex;
-    align-items: flex-end;
-    color: white;
-    font-size: 1rem;
-    padding: 5px 5px 0 0;
-    text-decoration-line: none;
+    .header__title-organization {
+      padding: 0 5px 0 5px;
+      color: white;
+      font-size: 1.5rem;
+    }
+
+    .header__phone-number {
+      display: flex;
+      align-items: flex-end;
+      color: white;
+      font-size: 1rem;
+      padding: 5px 5px 0 0;
+      text-decoration-line: none;
+    }
   }
 
   .nav {
@@ -77,28 +82,28 @@ header {
     justify-content: space-around;
     font-size: 0.7rem;
     min-height: 20px;
-  }
 
-  .nav li {
-    display: flex;
-    width: 5em;
-    align-items: center;
-    transform: skew(20deg);
-    background-image: url("./source/img/black-metall.jpg");
-    justify-content: center;
-  }
+    li {
+      display: flex;
+      width: 5em;
+      align-items: center;
+      transform: skew(20deg);
+      background-image: url("./source/img/black-metall.jpg");
+      justify-content: center;
 
-  .nav li a {
-    transform: skew(-20deg);
-    text-decoration: none;
-    color: white;
-  }
+      a {
+        transform: skew(-20deg);
+        text-decoration: none;
+        color: white;
 
-  .nav li a:hover {
-    background: url("./source/img/yellow-metall.jpg");
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    cursor: pointer;
+        &:hover {
+          background: url("./source/img/yellow-metall.jpg");
+          -webkit-text-fill-color: transparent;
+          -webkit-background-clip: text;
+          cursor: pointer;
+        }
+      }
+    }
   }
 
   @media (max-height: 650px) {
@@ -160,13 +165,13 @@ header {
 }
 
 footer {
-  min-height:5%;
+  min-height: 5%;
   display: flex;
   justify-content: center;
   align-items: center;
   background-image: url("./source/img/footer-background.jpg");
   color: white;
-  text-align:  center;
+  text-align: center;
   font-size: 0.5rem;
 }
 
@@ -177,31 +182,32 @@ footer {
 }
 
 @media(max-aspect-ratio: 870/1100) {
-  html{
+  html {
     font-size: 6vw;
   }
 
 }
 
 @media(max-aspect-ratio: 480/1100) {
-  html{
+  html {
     font-size: 8vw;
   }
 }
 
 button {
   background-color: #FF6B00;
-  color:white;
+  color: white;
 }
 
 button, input {
-  border:0;
+  border: 0;
   border-radius: 10px;
   font-size: 1rem;
   text-align: center;
 }
-a{
-  color:white;
+
+a {
+  color: white;
   text-align: center;
   outline: none;
   text-decoration: none;

@@ -58,3 +58,7 @@ input {
     outline: none;
     font-family: inherit;
 }
+
+a{
+    height: inherit;
+}
