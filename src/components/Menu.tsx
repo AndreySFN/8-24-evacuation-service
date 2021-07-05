@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 const Menu = () => <ul className="nav">
-    <li><a href="/">главная</a></li>
-    <li><a href='/prices'>цены</a></li>
-    <li><a href='/contacts'>контакты</a></li>
+    <li><Link to='/'>главная</Link></li>
+    <li><Link to='/prices'>цены</Link></li>
+    <li><Link to='/contacts'>контакты</Link></li>
 </ul>
 
 export default Menu;
