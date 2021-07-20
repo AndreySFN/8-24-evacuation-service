@@ -24,9 +24,15 @@
 
   #recall_input, #recall_submit {
     min-height:45%;
+    &[disabled] {
+      cursor: not-allowed;
+    }
   }
   #recall_submit {
     margin-left: 10px;
+    &[disabled] {
+      background-color: gray;
+    }
   }
 
   #recall_success {
