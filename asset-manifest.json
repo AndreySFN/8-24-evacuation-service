@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/8-24-evacuation-service/static/css/main.b990ecaa.chunk.css",
+    "main.css": "/8-24-evacuation-service/static/css/main.a4561a41.chunk.css",
     "main.js": "/8-24-evacuation-service/static/js/main.491dbe33.chunk.js",
     "main.js.map": "/8-24-evacuation-service/static/js/main.491dbe33.chunk.js.map",
     "runtime-main.js": "/8-24-evacuation-service/static/js/runtime-main.5ce1a50e.js",
@@ -8,7 +8,7 @@
     "static/js/2.1cabef8b.chunk.js": "/8-24-evacuation-service/static/js/2.1cabef8b.chunk.js",
     "static/js/2.1cabef8b.chunk.js.map": "/8-24-evacuation-service/static/js/2.1cabef8b.chunk.js.map",
     "index.html": "/8-24-evacuation-service/index.html",
-    "static/css/main.b990ecaa.chunk.css.map": "/8-24-evacuation-service/static/css/main.b990ecaa.chunk.css.map",
+    "static/css/main.a4561a41.chunk.css.map": "/8-24-evacuation-service/static/css/main.a4561a41.chunk.css.map",
     "static/js/2.1cabef8b.chunk.js.LICENSE.txt": "/8-24-evacuation-service/static/js/2.1cabef8b.chunk.js.LICENSE.txt",
     "static/media/index.scss": "/8-24-evacuation-service/static/media/yellow-metall.0b54348c.jpg",
     "static/media/NoImg.ef336ee1.png": "/8-24-evacuation-service/static/media/NoImg.ef336ee1.png",
@@ -19,7 +19,7 @@
   "entrypoints": [
     "static/js/runtime-main.5ce1a50e.js",
     "static/js/2.1cabef8b.chunk.js",
-    "static/css/main.b990ecaa.chunk.css",
+    "static/css/main.a4561a41.chunk.css",
     "static/js/main.491dbe33.chunk.js"
   ]
 }
