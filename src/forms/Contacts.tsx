@@ -12,8 +12,8 @@ const Contacts = () => <div id='contacts'>
             <a href={PHONE_URL} className='contacts__main_info__contacts_info__phone'>{PHONE_NUMBER}</a>
             <div className='contacts__main_info__contacts_info__logo_container'>
                 <a href={PHONE_URL}><img src={phoneImg}/></a>
-                <a href={TELEGRAM_URL}><img src={tgImg}/></a>
-                <a href={WHATSAPP_URL}><img src={whatsappImg}/></a>
+                {/*<a href={TELEGRAM_URL}><img src={tgImg}/></a>*/}
+                {/*<a href={WHATSAPP_URL}><img src={whatsappImg}/></a>*/}
             </div>
         </div>
         <div className='contacts__main_info__map'>

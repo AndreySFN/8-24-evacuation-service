@@ -2,7 +2,10 @@ import React from "react";
 import Recall from "../components/Recall";
 import "./main.scss"
 import ProductCard from "../components/ProducCard";
-import noImg from '../source/img/NoImg.png'
+import klinImg from '../source/img/products/klin.jpg'
+import moscowImg from '../source/img/products/moscow.jpg'
+import solnechnogorskImg from '../source/img/products/solnechnogorsk.jpg'
+import zelenogradImg from '../source/img/products/zelenograd.jpg'
 
 import {Link} from 'react-router-dom';
 
@@ -13,24 +16,24 @@ const Main = () => <div id="main_page">
     <div id="main_content">
         <div id="main_content__products">
             <ProductCard
-                imageUrl={noImg}
-                title={'эвакуация эвакуатора'}
-                price={'213125'}
+                imageUrl={klinImg}
+                title={'Клин'}
+                price={'2000'}
             />
             <ProductCard
-                imageUrl={noImg}
-                title={'унести машину на руках'}
-                price={'213125'}
+                imageUrl={moscowImg}
+                title={'Клин - Москва'}
+                price={'5500'}
             />
             <ProductCard
-                imageUrl={noImg}
-                title={'кто не понял тот поймёт'}
-                price={'213125'}
+                imageUrl={solnechnogorskImg}
+                title={'Клин - Солнечногорск'}
+                price={'3500'}
             />
             <ProductCard
-                imageUrl={noImg}
-                title={'иные услуги эвакуатора'}
-                price={'213125'}
+                imageUrl={zelenogradImg}
+                title={'Клин - Зеленоград'}
+                price={'5000'}
             />
         </div>
         <button id="all_price_button"><Link to="/prices">СМОТРЕТЬ ВСЕ ЦЕНЫ</Link></button>
