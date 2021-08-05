@@ -1,6 +1,6 @@
 {
   "name": "8-24-evacuation-service",
-  "homepage": "https://andreysfn.github.io/8-24-evacuation-service/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -24,7 +24,7 @@
   },
   "scripts": {
     "dev": "react-scripts start",
-    "start": "serve -s build",
+    "start": "npx serve -s build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
@@ -48,6 +48,8 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-react": "^7.14.5",
     "@types/react-router-dom": "^5.1.8"
-  }
+  },
+  "presets": ["@babel/preset-react"]
 }
