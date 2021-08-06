@@ -2,14 +2,15 @@ import React from "react";
 import Recall from "../components/Recall";
 import './Contacts.scss';
 import phoneImg from '../source/img/logos/phone_logo.png'
-import {ADDRESS, PHONE_NUMBER, PHONE_URL} from "../constants/commonConstants";
+import {ADDRESS, EMAIL, EMAIL_URL, PHONE_NUMBER, PHONE_URL} from "../constants/commonConstants";
 
 const Contacts = () => <div id='contacts'>
     <div className='contacts__main_info'>
         <div className='contacts__main_info__contacts_info'>
-            <a href={PHONE_URL} className='contacts__main_info__contacts_info__phone'>{PHONE_NUMBER}</a>
+            <a href={PHONE_URL} className='contacts__main_info__contacts_info__phone'>{PHONE_NUMBER}</a><br/>
+            <a href={EMAIL_URL} className={'contacts__main_info__contacts_info__email'}>{EMAIL}</a>
             <div className='contacts__main_info__contacts_info__logo_container'>
-                <a href={PHONE_URL}><img src={phoneImg}/></a>
+                {/*<a href={PHONE_URL}><img src={phoneImg}/></a>*/}
                 {/*<a href={TELEGRAM_URL}><img src={tgImg}/></a>*/}
                 {/*<a href={WHATSAPP_URL}><img src={whatsappImg}/></a>*/}
             </div>
