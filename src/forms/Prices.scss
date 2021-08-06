@@ -1,0 +1,18 @@
+.prices {
+  width:100%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  font-size: 0.7rem;
+  font-family: Arial, serif;
+  &__table {
+    td{
+      padding: 15px;
+      border: 1px solid gray;
+    }
+    &__price {
+      color: #FF6B00;
+    }
+  }
+}

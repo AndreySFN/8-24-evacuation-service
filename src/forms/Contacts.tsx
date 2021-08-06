@@ -2,9 +2,7 @@ import React from "react";
 import Recall from "../components/Recall";
 import './Contacts.scss';
 import phoneImg from '../source/img/logos/phone_logo.png'
-import tgImg from '../source/img/logos/tg_logo.png'
-import whatsappImg from '../source/img/logos/whatsapp_logo.png'
-import {ADDRESS, PHONE_NUMBER, PHONE_URL, TELEGRAM_URL, WHATSAPP_URL} from "../constants/commonConstants";
+import {ADDRESS, PHONE_NUMBER, PHONE_URL} from "../constants/commonConstants";
 
 const Contacts = () => <div id='contacts'>
     <div className='contacts__main_info'>

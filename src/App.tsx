@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import {Switch, Route} from 'react-router-dom'
 import Main from "./forms/Main";
 import Contacts from "./forms/Contacts";
-import UnderConstruction from "./forms/UnderConstruction";
+import Prices from "./forms/Prices";
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
         <div className="App">
             <Header/>
                 <Switch key="content">
-                    <Route path={`/prices`} component={UnderConstruction}/>
+                    <Route path={`/prices`} component={Prices}/>
                     <Route path={`/contacts`} component={Contacts}/>
                     <Route path={`/`} component={Main}/>
                 </Switch>
