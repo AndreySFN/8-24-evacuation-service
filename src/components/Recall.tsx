@@ -1,6 +1,6 @@
 // !!!
 /* eslint-disable */
-import React, {useEffect, useState} from "react";
+import React, {useState} from "react";
 import "./recall.scss"
 
 const Recall = () => {
@@ -8,13 +8,16 @@ const Recall = () => {
     const [isEnabled, setIsEnabled] = useState(false);
     const [isSent, setIsSent] = useState(false);
     const [errorMessage, setErrorMessage] = useState("");
-    useEffect(() => {
+    const apiInterval = setInterval(() => {
             // @ts-ignore
             if (window.jivo_api) {
                 // @ts-ignore
                 window.jivo_api.isCallbackEnabled((res) => {
-                    setIsEnabled(res.result.includes('ok'))
-                    if (!res.result.includes('ok')) {
+                    if (res.result.includes('ok')) {
+                        setIsEnabled(res.result.includes('ok'))
+                        setErrorMessage('')
+                        clearInterval(apiInterval)
+                    } else {
                         setErrorMessage('В настоящий момент обратный звонок недоступен')
                     }
                 })
@@ -23,8 +26,9 @@ const Recall = () => {
             }
         },
         // @ts-ignore
-        [window.jivo_api]
+        1
     )
+    setTimeout(() => clearInterval(apiInterval), 3000)
     const handleInput = (e: any) => {
         setErrorMessage("");
         setPhone(e.target.value)
